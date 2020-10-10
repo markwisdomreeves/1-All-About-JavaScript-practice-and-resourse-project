@@ -1,0 +1,19 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+/* centering a div container - first step*/
+#box {
+    text-align: center;
+}
+
+#box h1 {
+    text-align: center;
+}
+
+/* centering a div container - second step */
+.table-center {
+    display: inline-block;
+    background-color: brown;
+}

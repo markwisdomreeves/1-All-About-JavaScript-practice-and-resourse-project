@@ -1,0 +1,47 @@
+
+.avatar {
+    width: 100%;
+}
+
+#nav-right {
+    background-color: #A2A2A2;
+    border: none !important;
+    border-radius: none !important;
+    -webkit-border-radius: none !important;
+    -moz-border-radius: none !important;
+    -ms-border-radius: none !important;
+    -o-border-radius: none !important;
+}
+
+#nav-right a {
+    font-size: 2rem;
+    color: #111111;
+}
+
+#nav-right a:hover {
+    color: #f1f1f1;  
+}
+
+.container h1 {
+    font-size: 2.5rem;
+}
+
+.container p {
+    font-size: 2rem;
+}
+
+.searchUserContainer {
+    background-color: #E9EAEE;
+}
+
+.searchUserContainer .searchUser {
+    font-size: 1.5rem;
+}
+
+#profile {
+    font-size: 1.7rem;
+}
+
+#repos {
+    font-size: 1.7rem;
+}

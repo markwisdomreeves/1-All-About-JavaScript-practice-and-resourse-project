@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="css/app.css">
+    <title>Currency Convertion App</title>
+  </head>
+  <body onload="convertCurrency();" >
+    <div id="box">
+      <h2>Currency Converter</h2>
+      <table class="table-center">
+        <tr>
+          <td><input id="fromAmount" type="text" size="15" value="1" onkeyup="convertCurrency();" /></td>
+          <td>
+            <select id="from" onchange="convertCurrency();" >
+              <option value="LRD">Liberian Dollar (LRD)</option>
+              <option value="AUD">Australian Dollar (AUD)</option>
+              <option value="EUR">Euro (Euro)</option>
+              <option value="BBL">Brazilian Real (BBL)</option>
+              <option value="CAD">Canadian Dollar (CAD)</option>
+              <option value="CLP">Chilean Peso (CLP)</option>
+              <option value="CNY">Yuan Renminbi (CNY)</option>
+              <option value="NZD">New Zealand Dollar (NZD)</option>
+              <option value="CRC">Costa Rican Colon (CRC)</option>
+              <option value="EGP">Egyptian Pound (EGP)</option>
+              <option value="ETB">Ethiopian Birr (ETB)</option>
+              <option value="GBP">Pound Sterling (GBP)</option>
+              <option value="HKD">Hong Kong Dollar (HKD)</option>
+              <option value="INR">Indian Rupee (INR)</option>
+              <option value="KRW">Korean Won (KRW)</option>
+              <option value="IDR">Indonesian Rupiah (IDR)</option>
+              <option value="JMD">Jamaican Dollar (JMD)</option>
+              <option value="JPY">Japanese Yen (JPY)</option>
+              <option value="KPW">North Korean Won (KPW)</option>
+              <option value="LBP">Lebanese Pound (LBP)</option>
+              <option value="LYD">Libyan Dinar (LYD)</option>
+              <option value="MKD">Denar (MKD)</option>
+              <option value="USD" selected>US Dollar (USD)</option>
+              <option value="MUR">Mauritius Rupee (MUR)</option>
+              <option value="MAD">Moroccan Dirham (MAD)</option>
+              <option value="NGN">Nigerian Naira (NGN)</option>
+              <option value="NZD">New Zealand Dollar (NZD)</option>
+              <option value="NOK">Norwegian Krone (NOK)</option>
+              <option value="PKR">Pakistan Rupee (PKR)</option>
+              <option value="SLL">Sierra Leone Leone (SLL)</option>
+              <option value="LBP">Singapore Dollar (SGD)</option>
+              <option value="AED">Arab Emirates Dirham (AED)</option>
+              <option value="ZWD">Zimbabwe Dollar (ZWD)</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr><td><input id="toAmount" type="text" size="15" disabled /></td>
+        <td>
+            <select id="to" onchange="convertCurrency();">
+                <option value="LRD" selected>Liberian Dollar (LRD)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="EUR">Euro (Euro)</option>
+                <option value="BBL">Brazilian Real (BBL)</option>
+                <option value="CAD">Canadian Dollar (CAD)</option>
+                <option value="CLP">Chilean Peso (CLP)</option>
+                <option value="CNY">Yuan Renminbi (CNY)</option>
+                <option value="NZD">New Zealand Dollar (NZD)</option>
+                <option value="CRC">Costa Rican Colon (CRC)</option>
+                <option value="EGP">Egyptian Pound (EGP)</option>
+                <option value="ETB">Ethiopian Birr (ETB)</option>
+                <option value="GBP">Pound Sterling (GBP)</option>
+                <option value="HKD">Hong Kong Dollar (HKD)</option>
+                <option value="INR">Indian Rupee (INR)</option>
+                <option value="KRW">Korean Won (KRW)</option>
+                <option value="IDR">Indonesian Rupiah (IDR)</option>
+                <option value="JMD">Jamaican Dollar (JMD)</option>
+                <option value="JPY">Japanese Yen (JPY)</option>
+                <option value="KPW">North Korean Won (KPW)</option>
+                <option value="LBP">Lebanese Pound (LBP)</option>
+                <option value="LYD">Libyan Dinar (LYD)</option>
+                <option value="MKD">Denar (MKD)</option>
+                <option value="USD">US Dollar (USD)</option>
+                <option value="MUR">Mauritius Rupee (MUR)</option>
+                <option value="MAD">Moroccan Dirham (MAD)</option>
+                <option value="NGN">Nigerian Naira (NGN)</option>
+                <option value="NZD">New Zealand Dollar (NZD)</option>
+                <option value="NOK">Norwegian Krone (NOK)</option>
+                <option value="PKR">Pakistan Rupee (PKR)</option>
+                <option value="SLL">Sierra Leone Leone (SLL)</option>
+                <option value="LBP">Singapore Dollar (SGD)</option>
+                <option value="AED">Arab Emirates Dirham (AED)</option>
+                <option value="ZWD">Zimbabwe Dollar (ZWD)</option>
+            </select>
+        </td>
+    </tr>
+      </table>
+
+    </div>
+
+    
+
+
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

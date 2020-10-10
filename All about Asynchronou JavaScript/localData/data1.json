@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "topic": "Html",
+        "class": "Html class",
+        "status": true
+    },
+    {
+        "id": 2,
+        "topic": "Css",
+        "class": "Css class",
+        "status": true
+    },
+    {
+        "id": 3,
+        "topic": "JavaScript",
+        "class": "JavaScript class",
+        "status": false
+    },
+    {
+        "id": 4,
+        "topic": "Bootstrip",
+        "class": "Bootstrip class",
+        "status": true
+    }
+]
